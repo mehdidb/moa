@@ -25,7 +25,7 @@ import com.github.javacliparser.MultiChoiceOption;
 import java.util.Arrays;
 import moa.classifiers.core.driftdetection.AbstractChangeDetector;
 
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.Instance;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Iterator;

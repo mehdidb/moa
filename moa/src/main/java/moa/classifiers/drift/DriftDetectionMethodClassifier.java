@@ -18,7 +18,7 @@
  */
 package moa.classifiers.drift;
 
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.Instance;
 import java.util.LinkedList;
 import java.util.List;
 import moa.classifiers.AbstractClassifier;

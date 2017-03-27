@@ -23,11 +23,11 @@ import java.util.ArrayList;
 import java.util.List;
 import moa.core.InstanceExample;
 import moa.streams.InstanceStream;
-import com.yahoo.labs.samoa.instances.DenseInstance;
-import com.yahoo.labs.samoa.instances.Instance;
-import com.yahoo.labs.samoa.instances.Instances;
-import com.yahoo.labs.samoa.instances.InstancesHeader;
-import com.yahoo.labs.samoa.instances.SparseInstance;
+import org.apache.samoa.instances.DenseInstance;
+import org.apache.samoa.instances.Instance;
+import org.apache.samoa.instances.Instances;
+import org.apache.samoa.instances.InstancesHeader;
+import org.apache.samoa.instances.SparseInstance;
 import moa.core.FastVector;
 
 /**

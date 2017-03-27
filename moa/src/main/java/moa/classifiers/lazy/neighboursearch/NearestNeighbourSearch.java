@@ -21,8 +21,8 @@
 package moa.classifiers.lazy.neighboursearch;
 
 import java.io.Serializable;
-import com.yahoo.labs.samoa.instances.Instance;
-import com.yahoo.labs.samoa.instances.Instances;
+import org.apache.samoa.instances.Instance;
+import org.apache.samoa.instances.Instances;
 
 /**
  * Abstract class for nearest neighbour search. All algorithms (classes) that

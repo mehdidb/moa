@@ -25,9 +25,8 @@ import java.util.Set;
 import moa.classifiers.Classifier;
 import moa.classifiers.core.AttributeSplitSuggestion;
 import moa.classifiers.core.splitcriteria.SplitCriterion;
-import moa.classifiers.trees.HoeffdingTree;
 import moa.options.ClassOption;
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.Instance;
 
 /**
  * Hoeffding Tree that have a classifier at the leaves.

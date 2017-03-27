@@ -24,7 +24,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import com.github.javacliparser.IntOption;
 import moa.classifiers.bayes.NaiveBayes;
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.Instance;
 
 /**
  * This classifier learn ordered and unordered rule set from data stream with naive Bayes learners.

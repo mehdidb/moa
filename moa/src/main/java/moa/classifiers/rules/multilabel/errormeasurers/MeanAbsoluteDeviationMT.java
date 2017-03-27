@@ -1,6 +1,6 @@
 package moa.classifiers.rules.multilabel.errormeasurers;
 
-import com.yahoo.labs.samoa.instances.Prediction;
+import org.apache.samoa.instances.Prediction;
 
 public class MeanAbsoluteDeviationMT extends AbstractMultiTargetErrorMeasurer {
 

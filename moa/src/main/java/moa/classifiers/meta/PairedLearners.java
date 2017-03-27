@@ -28,7 +28,7 @@ import moa.classifiers.AbstractClassifier;
 import moa.classifiers.Classifier;
 import moa.core.Measurement;
 import moa.options.ClassOption;
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.Instance;
 import moa.core.MiscUtils;
 
 /**

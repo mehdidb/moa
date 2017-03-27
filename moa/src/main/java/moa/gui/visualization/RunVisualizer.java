@@ -44,15 +44,14 @@ import moa.gui.clustertab.ClusteringSetupTab;
 import moa.gui.clustertab.ClusteringVisualEvalPanel;
 import moa.gui.clustertab.ClusteringVisualTab;
 import moa.streams.clustering.ClusterEvent;
-import com.yahoo.labs.samoa.instances.Instance;
-import moa.gui.clustertab.ClusteringSetupTab;
+import org.apache.samoa.instances.Instance;
 import moa.streams.clustering.ClusterEventListener;
 import moa.streams.clustering.ClusteringStream;
 import moa.streams.clustering.RandomRBFGeneratorEvents;
-import com.yahoo.labs.samoa.instances.Attribute;
-import com.yahoo.labs.samoa.instances.DenseInstance;
+import org.apache.samoa.instances.Attribute;
+import org.apache.samoa.instances.DenseInstance;
 import moa.core.FastVector;
-import com.yahoo.labs.samoa.instances.Instances;
+import org.apache.samoa.instances.Instances;
 
 public class RunVisualizer implements Runnable, ActionListener, ClusterEventListener{
 

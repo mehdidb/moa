@@ -10,8 +10,8 @@ import moa.tasks.TaskMonitor;
 
 import com.github.javacliparser.FloatOption;
 import com.github.javacliparser.IntOption;
-import com.yahoo.labs.samoa.instances.Instance;
-import com.yahoo.labs.samoa.instances.MultiLabelInstance;
+import org.apache.samoa.instances.Instance;
+import org.apache.samoa.instances.MultiLabelInstance;
 
 public class OddsRatioScore extends AbstractAnomalyDetector {
 

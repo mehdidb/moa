@@ -25,7 +25,7 @@ import java.util.Enumeration;
 import java.util.Vector;
 import moa.classifiers.lazy.neighboursearch.EuclideanDistance;
 
-import com.yahoo.labs.samoa.instances.Instances;
+import org.apache.samoa.instances.Instances;
 
 /**
  * Class that splits up a KDTreeNode.

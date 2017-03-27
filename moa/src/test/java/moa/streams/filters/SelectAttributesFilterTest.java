@@ -6,7 +6,7 @@ import moa.streams.MultiTargetArffFileStream;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.Instance;
 
 public class SelectAttributesFilterTest {
 	private static double EPS=0.00000001;

@@ -19,7 +19,7 @@
  */
 package moa.core;
 
-import com.yahoo.labs.samoa.instances.InstanceImpl;
+import org.apache.samoa.instances.InstanceImpl;
 
 /**
  * Multilabel instance.

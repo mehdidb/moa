@@ -20,8 +20,8 @@
 
 package moa.classifiers.lazy.neighboursearch.kdtrees;
 
-import com.yahoo.labs.samoa.instances.Instance;
-import com.yahoo.labs.samoa.instances.Instances;
+import org.apache.samoa.instances.Instance;
+import org.apache.samoa.instances.Instances;
 
 /**
  <!-- globalinfo-start -->

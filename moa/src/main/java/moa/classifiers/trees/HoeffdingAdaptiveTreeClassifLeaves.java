@@ -19,15 +19,13 @@
  */
 package moa.classifiers.trees;
 
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.Instance;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 import moa.classifiers.Classifier;
 import moa.classifiers.core.AttributeSplitSuggestion;
 import moa.classifiers.core.splitcriteria.SplitCriterion;
-import moa.classifiers.trees.HoeffdingAdaptiveTree;
-import moa.classifiers.trees.HoeffdingTree;
 import moa.options.ClassOption;
 
 /**

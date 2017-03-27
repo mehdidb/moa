@@ -22,7 +22,7 @@ package moa.tasks;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
-import moa.classifiers.Classifier;
+
 import moa.core.Example;
 import moa.core.InstanceExample;
 import moa.core.Measurement;
@@ -36,9 +36,8 @@ import moa.options.ClassOption;
 import com.github.javacliparser.FileOption;
 import com.github.javacliparser.IntOption;
 import moa.streams.ExampleStream;
-import moa.streams.InstanceStream;
-import com.yahoo.labs.samoa.instances.Instance;
-import com.yahoo.labs.samoa.instances.Instances;
+import org.apache.samoa.instances.Instance;
+import org.apache.samoa.instances.Instances;
 
 public class EvaluateInterleavedChunks extends MainTask {
 

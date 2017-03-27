@@ -23,7 +23,7 @@ import moa.classifiers.AbstractClassifier;
 import moa.core.Measurement;
 import moa.core.Utils;
 import com.github.javacliparser.FloatOption;
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.Instance;
 
 /**
  * Single perceptron classifier.

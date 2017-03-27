@@ -22,8 +22,8 @@ package moa.classifiers.meta;
 
 import com.github.javacliparser.FloatOption;
 import com.github.javacliparser.IntOption;
-import com.yahoo.labs.samoa.instances.Instance;
-import com.yahoo.labs.samoa.instances.Instances;
+import org.apache.samoa.instances.Instance;
+import org.apache.samoa.instances.Instances;
 import moa.classifiers.Classifier;
 import moa.core.Measurement;
 

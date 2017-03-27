@@ -20,7 +20,7 @@
 package moa.evaluation;
 
 import moa.core.Example;
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.Instance;
 
 
 /**

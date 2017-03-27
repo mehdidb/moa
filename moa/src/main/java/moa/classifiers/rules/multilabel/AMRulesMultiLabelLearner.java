@@ -44,7 +44,6 @@ import moa.classifiers.rules.multilabel.core.MultiLabelRule;
 import moa.classifiers.rules.multilabel.core.MultiLabelRuleSet;
 import moa.classifiers.rules.multilabel.core.splitcriteria.MultiLabelSplitCriterion;
 import moa.classifiers.rules.multilabel.core.voting.ErrorWeightedVoteMultiLabel;
-import moa.classifiers.rules.multilabel.core.voting.MultiLabelVote;
 import moa.classifiers.rules.multilabel.errormeasurers.MultiLabelErrorMeasurer;
 import moa.classifiers.rules.multilabel.outputselectors.OutputAttributesSelector;
 import moa.classifiers.rules.multilabel.outputselectors.SelectAllOutputs;
@@ -55,8 +54,8 @@ import moa.options.ClassOption;
 import com.github.javacliparser.FlagOption;
 import com.github.javacliparser.FloatOption;
 import com.github.javacliparser.IntOption;
-import com.yahoo.labs.samoa.instances.MultiLabelInstance;
-import com.yahoo.labs.samoa.instances.Prediction;
+import org.apache.samoa.instances.MultiLabelInstance;
+import org.apache.samoa.instances.Prediction;
 
 
 public abstract class AMRulesMultiLabelLearner extends AbstractMultiLabelLearner implements MultiLabelLearner{

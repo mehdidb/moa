@@ -33,8 +33,8 @@ import moa.clusterers.macro.dbscan.DBScan;
 import moa.core.Measurement;
 import com.github.javacliparser.FloatOption;
 import com.github.javacliparser.IntOption;
-import com.yahoo.labs.samoa.instances.DenseInstance;
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.DenseInstance;
+import org.apache.samoa.instances.Instance;
 
 public class WithDBSCAN extends AbstractClusterer {
 	

@@ -28,11 +28,11 @@ import moa.core.ObjectRepository;
 import moa.options.AbstractOptionHandler;
 import moa.streams.InstanceStream;
 import moa.tasks.TaskMonitor;
-import com.yahoo.labs.samoa.instances.Attribute;
-import com.yahoo.labs.samoa.instances.DenseInstance;
-import com.yahoo.labs.samoa.instances.Instance;
-import com.yahoo.labs.samoa.instances.Instances;
-import com.yahoo.labs.samoa.instances.InstancesHeader;
+import org.apache.samoa.instances.Attribute;
+import org.apache.samoa.instances.DenseInstance;
+import org.apache.samoa.instances.Instance;
+import org.apache.samoa.instances.Instances;
+import org.apache.samoa.instances.InstancesHeader;
 
 /**
  * Stream generator for Hyperplane data stream.

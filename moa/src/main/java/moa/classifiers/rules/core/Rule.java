@@ -34,7 +34,7 @@ package moa.classifiers.rules.core;
  */
 import com.github.javacliparser.FlagOption;
 import com.github.javacliparser.FloatOption;
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.Instance;
 
 import java.io.Serializable;
 import java.util.LinkedList;

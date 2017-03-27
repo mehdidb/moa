@@ -26,8 +26,8 @@ import java.util.Vector;
 import moa.classifiers.lazy.neighboursearch.kdtrees.KDTreeNode;
 import moa.classifiers.lazy.neighboursearch.kdtrees.KDTreeNodeSplitter;
 import moa.classifiers.lazy.neighboursearch.kdtrees.SlidingMidPointOfWidestSide;
-import com.yahoo.labs.samoa.instances.Instance;
-import com.yahoo.labs.samoa.instances.Instances;
+import org.apache.samoa.instances.Instance;
+import org.apache.samoa.instances.Instances;
 
 
 

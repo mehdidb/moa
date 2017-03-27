@@ -19,7 +19,7 @@
  */
 package moa.classifiers.rules.core.conditionaltests;
 
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.Instance;
 
 import moa.classifiers.core.conditionaltests.NominalAttributeBinaryTest;
 import moa.classifiers.rules.core.Predicate;

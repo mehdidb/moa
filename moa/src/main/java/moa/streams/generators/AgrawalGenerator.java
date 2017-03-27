@@ -19,23 +19,22 @@
  */
 package moa.streams.generators;
 
-import com.yahoo.labs.samoa.instances.Attribute;
-import com.yahoo.labs.samoa.instances.DenseInstance;
+import org.apache.samoa.instances.Attribute;
+import org.apache.samoa.instances.DenseInstance;
 import moa.core.FastVector;
-import com.yahoo.labs.samoa.instances.Instance;
-import com.yahoo.labs.samoa.instances.Instances;
+import org.apache.samoa.instances.Instance;
+import org.apache.samoa.instances.Instances;
 
 import java.util.Random;
-import moa.core.Example;
+
 import moa.core.InstanceExample;
 
-import com.yahoo.labs.samoa.instances.InstancesHeader;
+import org.apache.samoa.instances.InstancesHeader;
 import moa.core.ObjectRepository;
 import moa.options.AbstractOptionHandler;
 import com.github.javacliparser.FlagOption;
 import com.github.javacliparser.FloatOption;
 import com.github.javacliparser.IntOption;
-import moa.streams.ExampleStream;
 import moa.streams.InstanceStream;
 import moa.tasks.TaskMonitor;
 

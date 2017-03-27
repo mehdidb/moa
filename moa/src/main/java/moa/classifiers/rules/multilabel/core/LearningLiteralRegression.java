@@ -1,20 +1,14 @@
 package moa.classifiers.rules.multilabel.core;
 
-import com.yahoo.labs.samoa.instances.Instance;
-import com.yahoo.labs.samoa.instances.InstanceData;
-import com.yahoo.labs.samoa.instances.MultiLabelInstance;
-import com.yahoo.labs.samoa.instances.Prediction;
+import org.apache.samoa.instances.Instance;
+import org.apache.samoa.instances.MultiLabelInstance;
+import org.apache.samoa.instances.Prediction;
 
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
 import moa.classifiers.MultiLabelLearner;
-import moa.classifiers.core.AttributeSplitSuggestion;
-import moa.classifiers.core.attributeclassobservers.AttributeClassObserver;
-import moa.classifiers.core.attributeclassobservers.FIMTDDNumericAttributeClassObserver;
-import moa.classifiers.core.driftdetection.ChangeDetector;
-import moa.classifiers.core.splitcriteria.SplitCriterion;
 import moa.classifiers.rules.core.Utils;
 import moa.classifiers.rules.multilabel.attributeclassobservers.AttributeStatisticsObserver;
 import moa.classifiers.rules.multilabel.attributeclassobservers.NominalStatisticsObserver;
@@ -24,7 +18,6 @@ import moa.classifiers.rules.multilabel.functions.AMRulesFunction;
 import moa.core.AutoExpandVector;
 import moa.core.DoubleVector;
 import moa.core.ObjectRepository;
-import moa.learners.Learner;
 import moa.tasks.TaskMonitor;
 
 public class LearningLiteralRegression extends LearningLiteral {

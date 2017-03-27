@@ -21,7 +21,7 @@ package moa.tasks;
 
 import java.util.Random;
 
-import com.yahoo.labs.samoa.instances.Instances;
+import org.apache.samoa.instances.Instances;
 import moa.core.ObjectRepository;
 import moa.options.ClassOption;
 import com.github.javacliparser.IntOption;

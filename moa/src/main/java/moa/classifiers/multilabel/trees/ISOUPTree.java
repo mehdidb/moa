@@ -33,10 +33,10 @@ import java.util.List;
 import com.github.javacliparser.FlagOption;
 import com.github.javacliparser.FloatOption;
 import com.github.javacliparser.IntOption;
-import com.yahoo.labs.samoa.instances.Attribute;
-import com.yahoo.labs.samoa.instances.MultiLabelInstance;
-import com.yahoo.labs.samoa.instances.MultiLabelPrediction;
-import com.yahoo.labs.samoa.instances.Prediction;
+import org.apache.samoa.instances.Attribute;
+import org.apache.samoa.instances.MultiLabelInstance;
+import org.apache.samoa.instances.MultiLabelPrediction;
+import org.apache.samoa.instances.Prediction;
 
 import moa.AbstractMOAObject;
 import moa.classifiers.AbstractMultiLabelLearner;

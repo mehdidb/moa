@@ -22,7 +22,7 @@ package moa.streams.generators.multilabel;
 import moa.streams.ArffFileStream;
 import moa.streams.MultiTargetInstanceStream;
 
-import com.yahoo.labs.samoa.instances.InstancesHeader;
+import org.apache.samoa.instances.InstancesHeader;
 
 import moa.core.MultilabelInstancesHeader;
 

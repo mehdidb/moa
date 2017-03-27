@@ -21,9 +21,9 @@
 package moa.streams.generators;
 
 import moa.core.InstanceExample;
-import com.yahoo.labs.samoa.instances.DenseInstance;
-import com.yahoo.labs.samoa.instances.Instance;
-import com.yahoo.labs.samoa.instances.InstancesHeader;
+import org.apache.samoa.instances.DenseInstance;
+import org.apache.samoa.instances.Instance;
+import org.apache.samoa.instances.InstancesHeader;
 import moa.core.ObjectRepository;
 import com.github.javacliparser.IntOption;
 import moa.tasks.TaskMonitor;

@@ -28,10 +28,9 @@ import com.github.javacliparser.IntOption;
 
 import moa.tasks.TaskMonitor;
 
-import com.yahoo.labs.samoa.instances.Instance;
-import com.yahoo.labs.samoa.instances.InstanceData;
-import com.yahoo.labs.samoa.instances.MultiLabelInstance;
-import com.yahoo.labs.samoa.instances.Prediction;
+import org.apache.samoa.instances.Instance;
+import org.apache.samoa.instances.MultiLabelInstance;
+import org.apache.samoa.instances.Prediction;
 
 /**
  * Multi-target regression evaluator that updates evaluation results using a sliding window.

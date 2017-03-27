@@ -30,7 +30,7 @@ import moa.core.Measurement;
 import moa.core.StringUtils;
 import com.github.javacliparser.FloatOption;
 import com.github.javacliparser.MultiChoiceOption;
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.Instance;
 import moa.core.Utils;
 
 /**

@@ -19,13 +19,12 @@
  */
 package moa.streams.filters;
 
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.Instance;
 
 import moa.core.Example;
 import moa.core.ObjectRepository;
 import moa.options.AbstractOptionHandler;
 import moa.streams.ExampleStream;
-import moa.streams.InstanceStream;
 import moa.tasks.TaskMonitor;
 
 /**

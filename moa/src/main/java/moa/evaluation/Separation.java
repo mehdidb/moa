@@ -20,8 +20,8 @@ package moa.evaluation;
  * #L%
  */
 
-import com.yahoo.labs.samoa.instances.DenseInstance;
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.DenseInstance;
+import org.apache.samoa.instances.Instance;
 import moa.cluster.Cluster;
 import moa.cluster.Clustering;
 import moa.cluster.SphereCluster;

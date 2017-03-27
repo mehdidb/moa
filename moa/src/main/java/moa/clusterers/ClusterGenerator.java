@@ -29,7 +29,7 @@ import moa.cluster.Clustering;
 import moa.cluster.SphereCluster;
 import moa.core.Measurement;
 import moa.gui.visualization.DataPoint;
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.Instance;
 
 public class ClusterGenerator extends AbstractClusterer{
 

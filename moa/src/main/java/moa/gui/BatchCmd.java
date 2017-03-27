@@ -46,11 +46,11 @@ import moa.evaluation.StatisticalCollection;
 import moa.gui.visualization.DataPoint;
 import moa.gui.visualization.RunVisualizer;
 import moa.streams.clustering.ClusterEvent;
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.Instance;
 import moa.streams.clustering.ClusterEventListener;
 import moa.streams.clustering.ClusteringStream;
 import moa.streams.clustering.RandomRBFGeneratorEvents;
-import com.yahoo.labs.samoa.instances.DenseInstance;
+import org.apache.samoa.instances.DenseInstance;
 
 public class BatchCmd implements ClusterEventListener{
 

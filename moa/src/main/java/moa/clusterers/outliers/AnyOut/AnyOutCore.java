@@ -24,7 +24,7 @@ package moa.clusterers.outliers.AnyOut;
 import com.github.javacliparser.FlagOption;
 import com.github.javacliparser.FloatOption;
 import com.github.javacliparser.IntOption;
-import com.yahoo.labs.samoa.instances.DenseInstance;
+import org.apache.samoa.instances.DenseInstance;
 import java.util.ArrayList;
 import java.util.HashMap;
 import moa.clusterers.clustree.ClusKernel;

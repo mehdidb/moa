@@ -19,10 +19,8 @@
  */
 package moa.evaluation;
 
-import com.yahoo.labs.samoa.instances.Instance;
-import moa.MOAObject;
+import org.apache.samoa.instances.Instance;
 import moa.core.Example;
-import moa.core.Measurement;
 
 public interface ClassificationPerformanceEvaluator extends LearningPerformanceEvaluator<Example<Instance>> {
 

@@ -27,7 +27,7 @@ import java.util.List;
 import java.util.Queue;
 
 import com.github.javacliparser.IntOption;
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.Instance;
 
 import moa.cluster.Cluster;
 import moa.cluster.Clustering;

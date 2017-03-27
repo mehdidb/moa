@@ -1,10 +1,9 @@
 package moa.classifiers.rules.multilabel.functions;
 
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.Instance;
 
 import moa.classifiers.MultiTargetRegressor;
 import moa.classifiers.multitarget.BasicMultiTargetRegressor;
-import moa.classifiers.rules.functions.Perceptron;
 import moa.classifiers.rules.functions.TargetMean;
 import moa.options.ClassOption;
 

@@ -30,11 +30,11 @@ import com.github.javacliparser.IntOption;
 import com.github.javacliparser.MultiChoiceOption;
 import com.github.javacliparser.StringOption;
 import moa.core.FastVector;
-import com.yahoo.labs.samoa.instances.Attribute;
-import com.yahoo.labs.samoa.instances.DenseInstance;
-import com.yahoo.labs.samoa.instances.Instance;
-import com.yahoo.labs.samoa.instances.Instances;
-import com.yahoo.labs.samoa.instances.SamoaToWekaInstanceConverter;
+import org.apache.samoa.instances.Attribute;
+import org.apache.samoa.instances.DenseInstance;
+import org.apache.samoa.instances.Instance;
+import org.apache.samoa.instances.Instances;
+import org.apache.samoa.instances.SamoaToWekaInstanceConverter;
 
 import weka.core.Utils;
 

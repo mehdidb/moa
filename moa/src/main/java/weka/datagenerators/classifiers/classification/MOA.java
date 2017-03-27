@@ -38,8 +38,7 @@ import moa.options.AbstractOptionHandler;
 import moa.options.ClassOption;
 import moa.streams.InstanceStream;
 import moa.streams.generators.LEDGenerator;
-import com.yahoo.labs.samoa.instances.SamoaToWekaInstanceConverter;
-import com.yahoo.labs.samoa.instances.WekaToSamoaInstanceConverter;
+import org.apache.samoa.instances.SamoaToWekaInstanceConverter;
 
 /**
  <!-- globalinfo-start -->

@@ -22,7 +22,7 @@
 package moa.clusterers.outliers.AnyOut;
 
 import com.github.javacliparser.Options;
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.Instance;
 import java.util.ArrayList;
 import moa.clusterers.outliers.MyBaseOutlierDetector;
 import moa.clusterers.outliers.AnyOut.util.DataObject;

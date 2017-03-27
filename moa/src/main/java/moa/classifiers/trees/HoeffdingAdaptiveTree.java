@@ -28,7 +28,7 @@ import moa.classifiers.core.driftdetection.ADWIN;
 import moa.core.DoubleVector;
 import moa.core.MiscUtils;
 import moa.core.Utils;
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.Instance;
 
 /**
  * Hoeffding Adaptive Tree for evolving data streams.

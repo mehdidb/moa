@@ -32,7 +32,7 @@ package moa.classifiers.rules;
  */
 
 import moa.AbstractMOAObject;
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.Instance;
 
 public class Predicates extends AbstractMOAObject{
 	

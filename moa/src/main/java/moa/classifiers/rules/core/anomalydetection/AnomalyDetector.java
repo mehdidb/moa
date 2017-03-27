@@ -1,5 +1,5 @@
 package moa.classifiers.rules.core.anomalydetection;
-import com.yahoo.labs.samoa.instances.MultiLabelInstance;
+import org.apache.samoa.instances.MultiLabelInstance;
 
 import moa.options.OptionHandler;
 

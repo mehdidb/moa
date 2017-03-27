@@ -1,7 +1,6 @@
 package moa.classifiers.rules.errormeasurers;
 
-import com.github.javacliparser.FloatOption;
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.Instance;
 
 /*
  * Computes the Mean Absolute Deviation for single target regression problems

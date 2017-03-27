@@ -1,13 +1,12 @@
 package moa.classifiers.rules.multilabel.core.voting;
 
 import static org.junit.Assert.*;
-import moa.classifiers.rules.core.voting.InverseErrorWeightedVote;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.yahoo.labs.samoa.instances.MultiLabelPrediction;
-import com.yahoo.labs.samoa.instances.Prediction;
+import org.apache.samoa.instances.MultiLabelPrediction;
+import org.apache.samoa.instances.Prediction;
 
 public class InverseErrorWeightedVoteMultiLabeLTest {
 	static InverseErrorWeightedVoteMultiLabel weightedVote;

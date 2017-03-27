@@ -1,7 +1,7 @@
 package moa.classifiers.rules.multilabel.errormeasurers;
 
-import com.yahoo.labs.samoa.instances.MultiLabelInstance;
-import com.yahoo.labs.samoa.instances.Prediction;
+import org.apache.samoa.instances.MultiLabelInstance;
+import org.apache.samoa.instances.Prediction;
 
 import moa.options.OptionHandler;
 

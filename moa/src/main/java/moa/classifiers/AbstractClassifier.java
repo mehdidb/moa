@@ -28,7 +28,7 @@ import java.util.Random;
 import moa.MOAObject;
 import moa.core.Example;
 
-import com.yahoo.labs.samoa.instances.InstancesHeader;
+import org.apache.samoa.instances.InstancesHeader;
 
 import moa.core.Measurement;
 import moa.core.ObjectRepository;
@@ -41,12 +41,10 @@ import com.github.javacliparser.IntOption;
 
 import moa.tasks.TaskMonitor;
 
-import com.yahoo.labs.samoa.instances.DenseInstanceData;
-import com.yahoo.labs.samoa.instances.Instance;
-import com.yahoo.labs.samoa.instances.InstanceData;
-import com.yahoo.labs.samoa.instances.Instances;
-import com.yahoo.labs.samoa.instances.MultiLabelPrediction;
-import com.yahoo.labs.samoa.instances.Prediction;
+import org.apache.samoa.instances.Instance;
+import org.apache.samoa.instances.Instances;
+import org.apache.samoa.instances.MultiLabelPrediction;
+import org.apache.samoa.instances.Prediction;
 
 import moa.core.Utils;
 

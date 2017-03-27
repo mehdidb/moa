@@ -26,12 +26,12 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-import com.yahoo.labs.samoa.instances.*;
 import moa.classifiers.AbstractClassifier;
 import moa.classifiers.Classifier;
 import moa.core.Measurement;
 import moa.core.Utils;
 import moa.options.ClassOption;
+import org.apache.samoa.instances.*;
 
 /**
  * Include labels of previous instances into the training data

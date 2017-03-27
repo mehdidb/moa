@@ -19,8 +19,7 @@
  */
 package moa.evaluation;
 
-import com.yahoo.labs.samoa.instances.InstanceData;
-import com.yahoo.labs.samoa.instances.Prediction;
+import org.apache.samoa.instances.Prediction;
 
 import moa.MOAObject;
 import moa.core.Example;

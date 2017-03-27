@@ -20,8 +20,8 @@
 package moa.streams;
 
 import com.github.javacliparser.FileOption;
-import com.yahoo.labs.samoa.instances.Instances;
-import com.yahoo.labs.samoa.instances.InstancesHeader;
+import org.apache.samoa.instances.Instances;
+import org.apache.samoa.instances.InstancesHeader;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;

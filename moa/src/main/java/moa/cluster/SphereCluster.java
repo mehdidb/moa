@@ -23,8 +23,8 @@ package moa.cluster;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import com.yahoo.labs.samoa.instances.DenseInstance;
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.DenseInstance;
+import org.apache.samoa.instances.Instance;
 
 /**
  * A simple implementation of the <code>Cluster</code> interface representing

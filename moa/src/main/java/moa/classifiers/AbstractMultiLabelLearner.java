@@ -1,9 +1,9 @@
 package moa.classifiers;
 
 import moa.core.Example;
-import com.yahoo.labs.samoa.instances.Instance;
-import com.yahoo.labs.samoa.instances.MultiLabelInstance;
-import com.yahoo.labs.samoa.instances.Prediction;
+import org.apache.samoa.instances.Instance;
+import org.apache.samoa.instances.MultiLabelInstance;
+import org.apache.samoa.instances.Prediction;
 
 public abstract class AbstractMultiLabelLearner extends AbstractClassifier implements MultiLabelLearner {
 

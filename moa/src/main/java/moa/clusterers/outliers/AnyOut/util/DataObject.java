@@ -21,7 +21,7 @@
 
 package moa.clusterers.outliers.AnyOut.util;
 
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.Instance;
 
 
 

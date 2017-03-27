@@ -28,7 +28,6 @@ import moa.classifiers.Classifier;
 import moa.classifiers.Regressor;
 import moa.core.Example;
 import moa.core.ObjectRepository;
-import moa.core.Utils;
 import moa.evaluation.LearningEvaluation;
 import moa.evaluation.LearningPerformanceEvaluator;
 import moa.evaluation.RegressionPerformanceEvaluator;
@@ -36,7 +35,7 @@ import moa.learners.Learner;
 import moa.options.ClassOption;
 import moa.streams.ExampleStream;
 import moa.streams.InstanceStream;
-import com.yahoo.labs.samoa.instances.Instance;
+import org.apache.samoa.instances.Instance;
 
 /**
  * Task for evaluating a static model on a stream.

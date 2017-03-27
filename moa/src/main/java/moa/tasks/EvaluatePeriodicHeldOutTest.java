@@ -41,8 +41,8 @@ import moa.learners.Learner;
 import moa.options.ClassOption;
 import moa.streams.CachedInstancesStream;
 import moa.streams.ExampleStream;
-import com.yahoo.labs.samoa.instances.Instance;
-import com.yahoo.labs.samoa.instances.Instances;
+import org.apache.samoa.instances.Instance;
+import org.apache.samoa.instances.Instances;
 
 /**
  * Task for evaluating a classifier on a stream by periodically testing on a heldout set.

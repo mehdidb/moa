@@ -63,13 +63,22 @@
       <artifactId>junit</artifactId>
       <scope>test</scope>
     </dependency>
-    
-    <dependency>
+
+
+      <dependency>
       <groupId>com.googlecode.java-diff-utils</groupId>
       <artifactId>diffutils</artifactId>
       <version>1.2.1</version>
       <scope>test</scope>
     </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/org.apache.avro/avro -->
+	<dependency>
+	    <groupId>org.apache.avro</groupId>
+	    <artifactId>avro</artifactId>
+	    <version>1.7.7</version>
+	</dependency>
+    
   </dependencies>
 
   <build>
